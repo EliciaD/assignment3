@@ -1,0 +1,201 @@
+@import 'includes/brand.less';
+@import 'includes/typography.less';
+@import 'includes/mixins.less';
+
+*{
+	padding:0;
+	margin:0;	
+}
+header{
+	background:#cccccc;
+	width:100%;
+}
+h1{
+	color:black;
+	font-family: 'Great Vibes', cursive;
+	text-align: center;
+	padding-top: 10px;
+	font-size: 2.5em;
+ 
+}
+h2{
+	color:white;
+	font-family: 'Quattrocento', serif;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+
+	.menuButton{
+		display: block;
+		padding: 10px;
+		margin: auto;
+		width:100px;
+	}
+#myNav{
+	display: none;
+}
+
+nav{
+	background: #ffcc99;
+	width:100%;
+
+	ul{
+		margin:auto;
+		padding: 40px 0;
+		width: 330px;
+
+			li{
+				text-transform: uppercase;
+				display:inline-block;
+				margin-left: 40px;
+
+
+				a{
+					color:#663300;
+					text-decoration: none;
+				
+					
+					
+					
+	}
+		}
+			}
+				}
+					a:hover {
+						color:white;
+}
+
+
+#banner{
+	padding:0;
+	background-image: url('../images/cover.jpg');
+	background-repeat: no-repeat;
+	height:500px;
+	background-size: 100%;
+	background-position: 100%;
+}
+footer{
+	width:100%;
+	background:#cccccc;
+	height: 30px;
+	clear:both;
+		ul{
+			width:300px;
+			margin:auto;
+
+		li{
+		text-transform: uppercase;
+		display: inline-block;
+			a{
+				color: black;
+				text-decoration: none;
+			}
+	}
+}
+}
+
+section{
+	padding-top: 15px;
+	margin: auto;
+	width:1050px;
+
+
+	.column{
+	float:left;
+	width:300px;
+	padding-right: 45px;
+	
+	p{
+		text-align: left;
+	}
+
+}
+h3{
+	text-align: center;
+	font-size: 1em;
+}
+}
+p{
+	font-size: 1em;
+}
+
+
+/* TABLET */
+@media screen and (max-width:768px){
+	#banner{
+		background-position: top;
+		height: 400px;
+	}
+
+
+
+	section{
+	padding-top: 15px;
+	width:85%;
+	
+
+	.column{
+	width:600px;
+	margin-bottom: 30px;
+	background-color: #cccccc;
+	border-radius: 15px;
+	
+	img{
+		display:none;
+	}
+	
+
+	
+	p{
+		text-align: left;
+		padding:15px;
+
+	}h3{
+		padding: 10px;
+	}
+
+}
+}
+}
+
+/* MOBILE */
+@media screen and(max-width: 500px){ 
+
+#banner{
+	display:none;
+}
+
+	section{
+	padding-top: 15px;
+	margin: auto;
+	width:80%;
+	
+
+	.column{
+	float:left;
+	width:330px;
+	margin-bottom: 30px;
+	background-color: #cccccc;
+	border-radius: 15px;
+	img{
+		display: block;
+		margin: 20px;
+	}
+	
+	p{
+		text-align: left;
+		padding:15px;
+
+	}
+}
+}
+} 
+
+
+
+
+
+
+
+
