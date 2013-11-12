@@ -1,0 +1,137 @@
+/*Contact Desktop Tablet Mobile */
+* {
+  padding: 0;
+}
+.menuButton {
+  display: block;
+  padding: 10px;
+  margin: auto;
+  width: 100px;
+}
+#myNav {
+  display: none;
+}
+header {
+  background: #cccccc;
+  width: 100%;
+  margin-bottom: 40px;
+}
+h1 {
+  color: black;
+  font-family: 'Great Vibes', cursive;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 2.5em;
+}
+h2 {
+  color: white;
+  font-family: 'Quattrocento', serif;
+  text-align: center;
+  font-size: 1.5em;
+}
+nav {
+  background: #ffcc99;
+  width: 100%;
+}
+nav ul {
+  margin: auto;
+  padding: 40px 0;
+  width: 330px;
+}
+nav ul li {
+  text-transform: uppercase;
+  display: inline-block;
+  margin-left: 40px;
+}
+nav ul li a {
+  color: #663300;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+}
+form {
+  background: #cccccc;
+  margin: auto;
+  font-size: 1.5em;
+  width: 300px;
+  color: black;
+  border-radius: 10px;
+  padding: 50px;
+  border: 3px solid #ffcc99;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+}
+form input {
+  text-align: center;
+  width: 300px;
+  border: 1px solid #999;
+  padding: 10px;
+  font-size: 1em;
+  height: 30px;
+  -webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+}
+input:hover {
+  background-color: #ffcc99;
+}
+textarea {
+  width: 290px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  font-size: 1em;
+}
+textarea:hover {
+  background-color: #ffcc99;
+}
+div#social {
+  width: 100%;
+}
+div#social ul {
+  width: 140px;
+  margin: auto;
+}
+div#social ul li {
+  padding-right: 10px;
+  display: inline;
+}
+div#social ul li a img {
+  padding-top: 10px;
+  width: 50px;
+}
+#formButtons {
+  background-color: #663300;
+  color: white;
+  margin-top: 20px;
+  height: 50px;
+}
+#formButtons:hover {
+  background-color: #ffcc99 ;
+  color: black;
+}
+footer {
+  width: 100%;
+  margin-top: 20px;
+  background: #cccccc;
+  clear: both;
+}
+footer ul {
+  width: 250px;
+  margin: auto;
+}
+footer ul li {
+  text-transform: uppercase;
+  display: inline-block;
+}
+footer ul li a {
+  color: black;
+  text-decoration: none;
+}
+/* TABLET */
+@media screen and (max-width: 768px) {
+  /* Did not need to change any elements */
+}
+/* MOBILE */
+@media screen and (max-width: 500px) {
+  /* Did not need to change any elements */
+}
